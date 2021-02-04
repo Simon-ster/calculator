@@ -20,7 +20,7 @@ if __name__ == '__main__':
         a = int(input("Enter the first number: "))
         b = int(input("Enter the second number: "))
 
-        print("addition: " + add(a,b))
-        print("multiplication: " + multiply(a,b))
-        print("subtraction: " + subtract(a,b))
-        print("division: " + divide(a,b))
+        print("addition: " + str(add(a,b)))
+        print("multiplication: " + str(multiply(a,b)))
+        print("subtraction: " + str(subtract(a,b)))
+        print("division: " + str(divide(a,b)))
